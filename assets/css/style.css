@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+body .card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+body .card .search {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .card .search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+body .card .search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+body .card .search button svg {
+  height: 30px;
+  width: 30px;
+}
+body .card .search button svg path {
+  fill: #1083ee;
+  stroke: #1ba3fd;
+}
+body .card .weather {
+  display: none;
+}
+body .card .weather .weather-icon {
+  width: 170px;
+  margin-top: 30px;
+}
+body .card .weather .weather-icon h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+body .card .weather .weather-icon h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+body .card .weather .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+body .card .weather .details .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  gap: 10px;
+}
+body .card .weather .details .col img {
+  width: 40px;
+}
+body .card .weather .details .col .humidity, body .card .weather .details .col .wind {
+  font-size: 28px;
+  margin-top: -6px;
+}/*# sourceMappingURL=style.css.map */
